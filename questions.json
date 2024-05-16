@@ -1,0 +1,263 @@
+[
+	{
+		"id": 1,
+		"question": "What does DOM stand for?",
+		"choices": [
+			"Document Object Model",
+			"Data Object Model",
+			"Dynamic Object Manipulation",
+			"Document Oriented Model"
+		],
+		"answer": "Document Object Model",
+		"explanation": "The DOM represents the document as nodes and objects, allowing programs to dynamically access and manipulate the content, structure, and style of a document.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+		]
+	},
+	{
+		"id": 2,
+		"question": "Which keyword is used to declare a variable in JavaScript?",
+		"choices": ["var", "let", "const", "all of the above"],
+		"answer": "all of the above",
+		"explanation": "In modern JavaScript, 'var', 'let', and 'const' are used to declare variables.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+		]
+	},
+	{
+		"id": 3,
+		"question": "Which function is used to print something in JavaScript?",
+		"choices": ["console.log()", "print()", "echo()", "write()"],
+		"answer": "console.log()",
+		"explanation": "'console.log()' is a function provided by the console object in JavaScript used to print messages to the console.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/API/Console/log"
+		]
+	},
+	{
+		"id": 4,
+		"question": "What is the result of typeof NaN in JavaScript?",
+		"choices": ["number", "NaN", "string", "undefined"],
+		"answer": "number",
+		"explanation": "The 'typeof' operator in JavaScript returns 'number' for NaN, which stands for 'Not-a-Number'.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+		]
+	},
+	{
+		"id": 5,
+		"question": "Which method is used to add an element to the end of an array in JavaScript?",
+		"choices": ["push()", "add()", "append()", "addToEnd()"],
+		"answer": "push()",
+		"explanation": "'push()' method adds one or more elements to the end of an array and returns the new length of the array.",
+		"difficulty": "easy",
+		"category": "arrays",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push"
+		]
+	},
+	{
+		"id": 6,
+		"question": "What is the correct way to write a comment in JavaScript?",
+		"choices": [
+			"//This is a comment",
+			"<!--This is a comment-->",
+			"#This is a comment",
+			"/*This is a comment*/"
+		],
+		"answer": "//This is a comment",
+		"explanation": "In JavaScript, single-line comments start with //, while multi-line comments are enclosed between /* and */.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#comments"
+		]
+	},
+	{
+		"id": 7,
+		"question": "What does the 'this' keyword refer to in JavaScript?",
+		"choices": [
+			"The current object",
+			"The parent object",
+			"The child object",
+			"The global object"
+		],
+		"answer": "The current object",
+		"explanation": "In JavaScript, 'this' refers to the current object where the code is being executed.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
+		]
+	},
+	{
+		"id": 8,
+		"question": "Which operator is used to concatenate strings in JavaScript?",
+		"choices": ["+", "&", "-", "||"],
+		"answer": "+",
+		"explanation": "The + operator is used to concatenate strings in JavaScript.",
+		"difficulty": "easy",
+		"category": "strings",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition"
+		]
+	},
+	{
+		"id": 9,
+		"question": "What does the '=== ' operator do in JavaScript?",
+		"choices": [
+			"Checks for strict equality",
+			"Checks for loose equality",
+			"Assigns a value",
+			"None of the above"
+		],
+		"answer": "Checks for strict equality",
+		"explanation": "The '===' operator in JavaScript checks for strict equality without type conversion.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality"
+		]
+	},
+	{
+		"id": 10,
+		"question": "What is the result of 5 + '5' in JavaScript?",
+		"choices": ["55", "10", "5", "undefined"],
+		"answer": "55",
+		"explanation": "In JavaScript, when a number is added to a string, the number is converted to a string and concatenated.",
+		"difficulty": "medium",
+		"category": "basic operations",
+		"references": []
+	},
+	{
+		"id": 11,
+		"question": "Which method is used to remove the last element from an array in JavaScript?",
+		"choices": ["pop()", "remove()", "delete()", "removeLast()"],
+		"answer": "pop()",
+		"explanation": "'pop()' method removes the last element from an array and returns that element.",
+		"difficulty": "medium",
+		"category": "arrays",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop"
+		]
+	},
+	{
+		"id": 12,
+		"question": "What is the result of typeof null in JavaScript?",
+		"choices": ["object", "null", "undefined", "string"],
+		"answer": "object",
+		"explanation": "In JavaScript, the 'typeof' operator returns 'object' for null, which is a long-standing bug in JavaScript.",
+		"difficulty": "medium",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+		]
+	},
+	{
+		"id": 13,
+		"question": "Which loop is used to iterate through an array in JavaScript?",
+		"choices": ["for", "while", "do-while", "foreach"],
+		"answer": "for",
+		"explanation": "'for' loop is commonly used to iterate through arrays in JavaScript.",
+		"difficulty": "easy",
+		"category": "loops",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement"
+		]
+	},
+	{
+		"id": 14,
+		"question": "What is the result of 10 == '10' in JavaScript?",
+		"choices": ["true", "false", "NaN", "undefined"],
+		"answer": "true",
+		"explanation": "In JavaScript, loose equality (==) compares the values after converting them to a common type. Therefore, 10 and '10' are equal.",
+		"difficulty": "hard",
+		"category": "basic operations",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality"
+		]
+	},
+	{
+		"id": 15,
+		"question": "Which method is used to return the length of a string in JavaScript?",
+		"choices": ["length()", "count()", "size()", "None of the above"],
+		"answer": "None of the above",
+		"explanation": "Strings in JavaScript have a 'length' property that returns the number of characters in the string, not a method.",
+		"difficulty": "hard",
+		"category": "strings",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length"
+		]
+	},
+	{
+		"id": 16,
+		"question": "What is the result of typeof undefined in JavaScript?",
+		"choices": ["undefined", "null", "object", "string"],
+		"answer": "undefined",
+		"explanation": "In JavaScript, the 'typeof' operator returns 'undefined' for an undefined value.",
+		"difficulty": "hard",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+		]
+	},
+	{
+		"id": 17,
+		"question": "Which function is used to convert a string to a number in JavaScript?",
+		"choices": ["parseInt()", "parseFloat()", "Number()", "All of the above"],
+		"answer": "All of the above",
+		"explanation": "All three methods can be used to convert a string to a number in JavaScript.",
+		"difficulty": "medium",
+		"category": "conversion",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat",
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number"
+		]
+	},
+	{
+		"id": 18,
+		"question": "Which symbol is used for single-line comments in JavaScript?",
+		"choices": ["//", "/*", "<!--", "##"],
+		"answer": "//",
+		"explanation": "In JavaScript, '//' is used for single-line comments.",
+		"difficulty": "easy",
+		"category": "basic concepts",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#comments"
+		]
+	},
+	{
+		"id": 19,
+		"question": "What is the result of 10 % 3 in JavaScript?",
+		"choices": ["1", "3", "0.333", "10"],
+		"answer": "1",
+		"explanation": "The modulus (%) operator returns the remainder of a division operation. Therefore, 10 % 3 equals 1.",
+		"difficulty": "medium",
+		"category": "basic operations",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder"
+		]
+	},
+	{
+		"id": 20,
+		"question": "Which method is used to sort an array in JavaScript?",
+		"choices": ["sort()", "order()", "arrange()", "None of the above"],
+		"answer": "sort()",
+		"explanation": "'sort()' method is used to sort the elements of an array in place and returns the sorted array.",
+		"difficulty": "easy",
+		"category": "arrays",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+		]
+	}
+]
