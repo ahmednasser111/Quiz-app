@@ -11,7 +11,7 @@
 		"answer": "Document Object Model",
 		"explanation": "The DOM represents the document as nodes and objects, allowing programs to dynamically access and manipulate the content, structure, and style of a document.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
 		]
@@ -23,7 +23,7 @@
 		"answer": "all of the above",
 		"explanation": "In modern JavaScript, 'var', 'let', and 'const' are used to declare variables.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let",
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
@@ -36,7 +36,7 @@
 		"answer": "console.log()",
 		"explanation": "'console.log()' is a function provided by the console object in JavaScript used to print messages to the console.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/API/Console/log"
 		]
@@ -48,7 +48,7 @@
 		"answer": "number",
 		"explanation": "The 'typeof' operator in JavaScript returns 'number' for NaN, which stands for 'Not-a-Number'.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
 		]
@@ -60,7 +60,7 @@
 		"answer": "push()",
 		"explanation": "'push()' method adds one or more elements to the end of an array and returns the new length of the array.",
 		"difficulty": "easy",
-		"category": "arrays",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push"
 		]
@@ -77,7 +77,7 @@
 		"answer": "//This is a comment",
 		"explanation": "In JavaScript, single-line comments start with //, while multi-line comments are enclosed between /* and */.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#comments"
 		]
@@ -94,7 +94,7 @@
 		"answer": "The current object",
 		"explanation": "In JavaScript, 'this' refers to the current object where the code is being executed.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
 		]
@@ -106,7 +106,7 @@
 		"answer": "+",
 		"explanation": "The + operator is used to concatenate strings in JavaScript.",
 		"difficulty": "easy",
-		"category": "strings",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition"
 		]
@@ -123,7 +123,7 @@
 		"answer": "Checks for strict equality",
 		"explanation": "The '===' operator in JavaScript checks for strict equality without type conversion.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality"
 		]
@@ -135,7 +135,7 @@
 		"answer": "55",
 		"explanation": "In JavaScript, when a number is added to a string, the number is converted to a string and concatenated.",
 		"difficulty": "medium",
-		"category": "basic operations",
+		"category": "JavaScript",
 		"references": []
 	},
 	{
@@ -145,7 +145,7 @@
 		"answer": "pop()",
 		"explanation": "'pop()' method removes the last element from an array and returns that element.",
 		"difficulty": "medium",
-		"category": "arrays",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop"
 		]
@@ -157,7 +157,7 @@
 		"answer": "object",
 		"explanation": "In JavaScript, the 'typeof' operator returns 'object' for null, which is a long-standing bug in JavaScript.",
 		"difficulty": "medium",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
 		]
@@ -169,7 +169,7 @@
 		"answer": "for",
 		"explanation": "'for' loop is commonly used to iterate through arrays in JavaScript.",
 		"difficulty": "easy",
-		"category": "loops",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement"
 		]
@@ -181,7 +181,7 @@
 		"answer": "true",
 		"explanation": "In JavaScript, loose equality (==) compares the values after converting them to a common type. Therefore, 10 and '10' are equal.",
 		"difficulty": "hard",
-		"category": "basic operations",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality"
 		]
@@ -193,7 +193,7 @@
 		"answer": "None of the above",
 		"explanation": "Strings in JavaScript have a 'length' property that returns the number of characters in the string, not a method.",
 		"difficulty": "hard",
-		"category": "strings",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length"
 		]
@@ -205,7 +205,7 @@
 		"answer": "undefined",
 		"explanation": "In JavaScript, the 'typeof' operator returns 'undefined' for an undefined value.",
 		"difficulty": "hard",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
 		]
@@ -217,7 +217,7 @@
 		"answer": "All of the above",
 		"explanation": "All three methods can be used to convert a string to a number in JavaScript.",
 		"difficulty": "medium",
-		"category": "conversion",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt",
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat",
@@ -231,7 +231,7 @@
 		"answer": "//",
 		"explanation": "In JavaScript, '//' is used for single-line comments.",
 		"difficulty": "easy",
-		"category": "basic concepts",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#comments"
 		]
@@ -243,7 +243,7 @@
 		"answer": "1",
 		"explanation": "The modulus (%) operator returns the remainder of a division operation. Therefore, 10 % 3 equals 1.",
 		"difficulty": "medium",
-		"category": "basic operations",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder"
 		]
@@ -255,9 +255,356 @@
 		"answer": "sort()",
 		"explanation": "'sort()' method is used to sort the elements of an array in place and returns the sorted array.",
 		"difficulty": "easy",
-		"category": "arrays",
+		"category": "JavaScript",
 		"references": [
 			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+		]
+	},
+	{
+		"id": 21,
+		"question": "What does CSS stand for?",
+		"choices": [
+			"Cascading Style Sheets",
+			"Creative Style Sheets",
+			"Computer Style Sheets",
+			"Colorful Style Sheets"
+		],
+		"answer": "Cascading Style Sheets",
+		"explanation": "CSS stands for Cascading Style Sheets, which is used to style the layout and presentation of web pages.",
+		"difficulty": "easy",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS"]
+	},
+	{
+		"id": 22,
+		"question": "Which HTML tag is used to define an unordered list?",
+		"choices": ["<ul>", "<ol>", "<li>", "<ul>"],
+		"answer": "<ul>",
+		"explanation": "The <ul> tag is used to define an unordered list in HTML.",
+		"difficulty": "easy",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"
+		]
+	},
+	{
+		"id": 23,
+		"question": "Which property is used to change the font size of text in CSS?",
+		"choices": ["font-family", "font-size", "font-weight", "font-style"],
+		"answer": "font-size",
+		"explanation": "The 'font-size' property is used to change the font size of text in CSS.",
+		"difficulty": "easy",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/font-size"]
+	},
+	{
+		"id": 24,
+		"question": "What is the result of 2 + 2 * 3 in JavaScript?",
+		"choices": ["8", "10", "6", "12"],
+		"answer": "8",
+		"explanation": "In JavaScript, multiplication has higher precedence than addition. So, 2 * 3 is evaluated first, resulting in 6, and then 2 is added to 6, resulting in 8.",
+		"difficulty": "medium",
+		"category": "JavaScript",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"
+		]
+	},
+	{
+		"id": 25,
+		"question": "What is the purpose of the 'box-sizing' property in CSS?",
+		"choices": [
+			"To control the sizing of the box model",
+			"To set the background color of the box",
+			"To add a border to the box",
+			"To add padding to the content of the box"
+		],
+		"answer": "To control the sizing of the box model",
+		"explanation": "The 'box-sizing' property in CSS is used to control how the width and height of an element are calculated, including padding and border.",
+		"difficulty": "medium",
+		"category": "CSS",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
+		]
+	},
+	{
+		"id": 26,
+		"question": "Which event occurs when a user clicks on an HTML element?",
+		"choices": ["onmouseover", "onclick", "onchange", "onsubmit"],
+		"answer": "onclick",
+		"explanation": "The 'onclick' event occurs when a user clicks on an HTML element.",
+		"difficulty": "easy",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick"
+		]
+	},
+	{
+		"id": 27,
+		"question": "Which property is used to change the color of text in CSS?",
+		"choices": ["color", "background-color", "text-color", "font-color"],
+		"answer": "color",
+		"explanation": "The 'color' property is used to change the color of text in CSS.",
+		"difficulty": "easy",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/color"]
+	},
+	{
+		"id": 28,
+		"question": "What is the purpose of the 'position' property in CSS?",
+		"choices": [
+			"To specify the position of an element",
+			"To control the size of an element",
+			"To add a border to an element",
+			"To change the color of an element"
+		],
+		"answer": "To specify the position of an element",
+		"explanation": "The 'position' property in CSS is used to specify the positioning method of an element.",
+		"difficulty": "medium",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/position"]
+	},
+	{
+		"id": 29,
+		"question": "Which property is used to change the background color of an element in CSS?",
+		"choices": ["background-color", "color", "background", "bgcolor"],
+		"answer": "background-color",
+		"explanation": "The 'background-color' property is used to change the background color of an element in CSS.",
+		"difficulty": "easy",
+		"category": "CSS",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
+		]
+	},
+	{
+		"id": 30,
+		"question": "Which HTML tag is used to define a hyperlink?",
+		"choices": ["<a>", "<link>", "<href>", "<url>"],
+		"answer": "<a>",
+		"explanation": "The <a> tag is used to define a hyperlink in HTML.",
+		"difficulty": "easy",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+		]
+	},
+	{
+		"id": 31,
+		"question": "Which CSS property is used to control the stacking order of elements?",
+		"choices": ["z-index", "position", "display", "float"],
+		"answer": "z-index",
+		"explanation": "The `z-index` property specifies the stack order of an element. An element with a greater stack order is always in front of an element with a lower stack order.",
+		"difficulty": "hard",
+		"category": "medium",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/z-index"]
+	},
+	{
+		"id": 33,
+		"question": "What does the HTML `<figure>` tag represent?",
+		"choices": [
+			"An image with a caption",
+			"A self-contained content, typically with a caption",
+			"A block of quoted text from another source",
+			"An inline container for text and images"
+		],
+		"answer": "A self-contained content, typically with a caption",
+		"explanation": "The `<figure>` tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc., that is typically referenced as a single unit. The `<figcaption>` element can be used to provide a caption for the `<figure>`.",
+		"difficulty": "medium",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure"
+		]
+	},
+	{
+		"id": 34,
+		"question": "What is the purpose of the `rel` attribute in the HTML `<link>` element?",
+		"choices": [
+			"To specify the relationship between the current document and the linked document",
+			"To define the URL of the linked document",
+			"To set the media type of the linked document",
+			"To provide an alternate name for the linked document"
+		],
+		"answer": "To specify the relationship between the current document and the linked document",
+		"explanation": "The `rel` attribute specifies the relationship between the current document and the linked document/resource. Common values are `stylesheet` for linking CSS files, `icon` for site icons, etc.",
+		"difficulty": "medium",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
+		]
+	},
+	{
+		"id": 35,
+		"question": "What does the CSS property 'flex-grow' do?",
+		"choices": [
+			"Specifies the initial size of a flex item",
+			"Specifies the ability of a flex item to grow if necessary",
+			"Specifies the ability of a flex item to shrink if necessary",
+			"Specifies the order of a flex item relative to other flex items"
+		],
+		"answer": "Specifies the ability of a flex item to grow if necessary",
+		"explanation": "The 'flex-grow' property in CSS specifies the ability of a flex item to grow if necessary to fill the available space in the flex container. A value of 0 means the item will not grow.",
+		"difficulty": "medium",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow"]
+	},
+	{
+		"id": 36,
+		"question": "What does the 'async' attribute do when included in a script tag?",
+		"choices": [
+			"Specifies that the script should be executed asynchronously",
+			"Specifies that the script should be executed synchronously",
+			"Specifies that the script should be executed after the page has loaded",
+			"Specifies that the script should be executed before the page starts loading"
+		],
+		"answer": "Specifies that the script should be executed asynchronously",
+		"explanation": "The 'async' attribute in a script tag specifies that the script should be executed asynchronously as soon as it is available, without blocking the page rendering.",
+		"difficulty": "hard",
+		"category": "JavaScript",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-async"
+		]
+	},
+	{
+		"id": 37,
+		"question": "Which CSS property is used to create a transition effect between two states?",
+		"choices": ["transition", "transform", "animation", "opacity"],
+		"answer": "transition",
+		"explanation": "The 'transition' property in CSS is used to create a smooth transition effect between two states of an element, such as changes in its size, color, or position.",
+		"difficulty": "hard",
+		"category": "CSS",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/CSS/transition"
+		]
+	},
+	{
+		"id": 38,
+		"question": "In JavaScript, what does the 'use strict' directive do?",
+		"choices": [
+			"Enforces stricter syntax rules and error handling",
+			"Disables strict mode for the current script",
+			"Enables experimental JavaScript features",
+			"Specifies the version of JavaScript to use"
+		],
+		"answer": "Enforces stricter syntax rules and error handling",
+		"explanation": "The 'use strict' directive in JavaScript enables strict mode for the current script, which enforces stricter syntax rules and error handling, helping to catch common coding mistakes and making code more secure.",
+		"difficulty": "hard",
+		"category": "JavaScript",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+		]
+	},
+	{
+		"id": 39,
+		"question": "What is the purpose of the HTML 'data-' attribute?",
+		"choices": [
+			"To store custom data attributes for use in JavaScript",
+			"To define a hyperlink",
+			"To create a table cell",
+			"To insert an image"
+		],
+		"answer": "To store custom data attributes for use in JavaScript",
+		"explanation": "The 'data-' attribute in HTML is used to store custom data attributes for elements, which can then be accessed and manipulated using JavaScript. It is useful for attaching additional data to elements without using non-standard attributes.",
+		"difficulty": "hard",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*"
+		]
+	},
+	{
+		"id": 40,
+		"question": "What is the purpose of the JavaScript 'bind()' method?",
+		"choices": [
+			"To create a new array with the results of calling a provided function on every element in the calling array",
+			"To create a new function that, when called, has its 'this' keyword set to a specified value",
+			"To execute a provided function once for each array element",
+			"To remove the last element from an array and return that element"
+		],
+		"answer": "To create a new function that, when called, has its 'this' keyword set to a specified value",
+		"explanation": "The 'bind()' method in JavaScript creates a new function that, when called, has its 'this' keyword set to a specified value, ensuring that the function is called with the correct context.",
+		"difficulty": "hard",
+		"category": "JavaScript",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+		]
+	},
+	{
+		"id": 41,
+		"question": "What is the purpose of the HTML 'href' attribute in an 'a' tag?",
+		"choices": [
+			"To specify the alignment of the hyperlink",
+			"To provide a link to another webpage or resource",
+			"To define the source of an image",
+			"To add a border around the hyperlink"
+		],
+		"answer": "To provide a link to another webpage or resource",
+		"explanation": "The 'href' attribute in an 'a' tag is used to provide a link to another webpage or resource. It specifies the URL of the page the link goes to.",
+		"difficulty": "medium",
+		"category": "HTML",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href"
+		]
+	},
+	{
+		"id": 42,
+		"question": "What does the CSS 'display: inline-block;' property do?",
+		"choices": [
+			"Specifies that the element should be displayed as a block-level element",
+			"Specifies that the element should be displayed as an inline element",
+			"Specifies that the element should be displayed as an inline block-level element",
+			"Specifies that the element should be displayed as a flexible container"
+		],
+		"answer": "Specifies that the element should be displayed as an inline block-level element",
+		"explanation": "The 'display: inline-block;' property in CSS specifies that the element should be displayed as an inline block-level element. It behaves like an inline element but allows for block-level properties like setting width and height.",
+		"difficulty": "medium",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/display"]
+	},
+	{
+		"id": 43,
+		"question": "What is the purpose of the JavaScript 'classList' property?",
+		"choices": [
+			"To specify a list of classes for an HTML element",
+			"To manipulate the classes of an HTML element",
+			"To create a list of elements with the same class name",
+			"To select an element by its class name"
+		],
+		"answer": "To manipulate the classes of an HTML element",
+		"explanation": "The 'classList' property in JavaScript is used to manipulate the classes of an HTML element. It provides methods like 'add', 'remove', and 'toggle' to modify the classes.",
+		"difficulty": "medium",
+		"category": "JavaScript",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/API/Element/classList"
+		]
+	},
+	{
+		"id": 44,
+		"question": "What is the purpose of the CSS 'position: relative;' property?",
+		"choices": [
+			"Positions the element relative to its normal position in the document flow",
+			"Positions the element relative to the viewport",
+			"Positions the element relative to its parent element",
+			"Positions the element relative to the nearest positioned ancestor"
+		],
+		"answer": "Positions the element relative to its normal position in the document flow",
+		"explanation": "The 'position: relative;' property in CSS positions the element relative to its normal position in the document flow. It allows for adjustments using 'top', 'right', 'bottom', and 'left' properties.",
+		"difficulty": "medium",
+		"category": "CSS",
+		"references": ["https://developer.mozilla.org/en-US/docs/Web/CSS/position"]
+	},
+	{
+		"id": 45,
+		"question": "What does the JavaScript 'getElementById()' method do?",
+		"choices": [
+			"Returns a list of elements with a specified class name",
+			"Returns the first element that matches a specified CSS selector",
+			"Returns the element with the specified ID",
+			"Returns the element with the specified tag name"
+		],
+		"answer": "Returns the element with the specified ID",
+		"explanation": "The 'getElementById()' method in JavaScript returns the element with the specified ID. IDs are unique identifiers assigned to HTML elements.",
+		"difficulty": "medium",
+		"category": "JavaScript",
+		"references": [
+			"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById"
 		]
 	}
 ]
