@@ -28,7 +28,7 @@ You can try the quiz app live [Here](https://ahmednasser111.github.io/Quiz-app/)
 
 - `index.html`: The main HTML file containing the structure of the quiz application.
 - `style.css`: The CSS file containing styles for the quiz layout and appearance.
-- `script.js`: The JavaScript file containing the logic for fetching questions, handling user interactions, and displaying quiz results.
+- `main.js`: The JavaScript file containing the logic for fetching questions, handling user interactions, and displaying quiz results.
 - `questions.json`: A JSON file containing the quiz questions, choices, and correct answers.
 
 ## Used Technologies
