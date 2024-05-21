@@ -13,6 +13,7 @@ let result = document.querySelector(".result");
 
 const questionCount = 10;
 let currentQuestion = 0;
+
 let time = questionCount * 60; // 10 minutes
 let userAnswers = [];
 let finished = false;
